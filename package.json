@@ -1,7 +1,7 @@
 {
   "name": "@hannoeru-gql/monorepo",
   "private": true,
-  "description": "monorepo for react-graphql-full-stack",
+  "description": "monorepo for react-gql-full-stack",
   "license": "MIT",
   "author": "Han <me@hanlee.co>",
   "scripts": {
