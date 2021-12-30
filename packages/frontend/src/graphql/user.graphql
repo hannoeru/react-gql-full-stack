@@ -1,0 +1,10 @@
+query getCurrentUser {
+  user {
+    id
+    name
+    email
+    avatar
+    createdAt
+    updatedAt
+  }
+}

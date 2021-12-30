@@ -1,0 +1,5 @@
+dist
+temp
+type-graphql
+pnpm-lock.yaml
+generated

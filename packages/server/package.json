@@ -1,0 +1,43 @@
+{
+  "name": "@hannoeru-gql/server",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "esmon src/index.ts",
+    "build": "esmon build src/index.ts",
+    "start": "node dist/index.cjs",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.7.0",
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-fastify": "^3.5.0",
+    "apollo-server-plugin-base": "^3.4.0",
+    "class-validator": "^0.13.2",
+    "fastify": "^3.25.3",
+    "fastify-cors": "^6.0.2",
+    "fastify-passport": "^0.4.3",
+    "fastify-secure-session": "^3.0.0",
+    "graphql": "15.x.x",
+    "nanoid": "^3.1.30",
+    "passport-github": "^1.1.0",
+    "pino-pretty": "^7.3.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/graphql-fields": "^1.3.4",
+    "@types/node": "^17.0.5",
+    "@types/passport-github": "^1.1.7",
+    "esmon": "^2.0.1",
+    "graphql-fields": "^2.0.3",
+    "graphql-scalars": "^1.14.1",
+    "prisma": "^3.7.0",
+    "tslib": "^2.3.1",
+    "typegraphql-prisma": "^0.18.3",
+    "typescript": "^4.4.4"
+  }
+}

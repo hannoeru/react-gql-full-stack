@@ -1,0 +1,29 @@
+{
+  "name": "@hannoeru-gql/monorepo",
+  "private": true,
+  "description": "monorepo for react-graphql-full-stack",
+  "license": "MIT",
+  "author": "Han <me@hanlee.co>",
+  "scripts": {
+    "db:up": "docker compose --env-file packages/server/.env up -d",
+    "db:down": "docker compose down",
+    "db:logs": "docker compose logs db",
+    "db:push": "pnpm -C packages/server db:push",
+    "db:studio": "pnpm -C packages/server db:studio",
+    "db:migrate": "pnpm -C packages/server db:migrate",
+    "db:generate": "pnpm -C packages/server db:generate",
+    "dev": "pnpm -r dev --parallel",
+    "dev:server": "pnpm -C packages/server dev",
+    "dev:front": "pnpm -C packages/frontend dev",
+    "build": "pnpm -r build --parallel",
+    "build:server": "cd packages/server && pnpm build",
+    "build:font": "cd packages/frontend && pnpm build",
+    "start": "pnpm -r start --parallel",
+    "lint": "eslint --ext .js,.ts,.vue,.json .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue,.json ."
+  },
+  "devDependencies": {
+    "@hannoeru/eslint-config": "^0.5.3",
+    "eslint": "^8.5.0"
+  }
+}

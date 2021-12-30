@@ -1,0 +1,32 @@
+{
+  "name": "@hannoeru-gql/frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "start": "vite preview",
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.20.1",
+    "graphql": "15.x.x",
+    "preact": "^10.5.15",
+    "preact-router": "^3.2.1",
+    "urql": "^2.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@graphql-codegen/cli": "^2.3.1",
+    "@graphql-codegen/introspection": "^2.1.1",
+    "@graphql-codegen/typescript": "^2.4.2",
+    "@graphql-codegen/typescript-operations": "^2.2.2",
+    "@graphql-codegen/typescript-urql": "^3.4.2",
+    "@iconify/json": "^1.1.449",
+    "@preact/preset-vite": "^2.1.5",
+    "graphql-tag": "^2.12.6",
+    "typescript": "^4.4.4",
+    "unocss": "^0.20.1",
+    "vite": "^2.7.2"
+  }
+}
