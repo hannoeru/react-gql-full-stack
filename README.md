@@ -20,7 +20,7 @@
 - Apollo Server
 - Passport with GitHub OAuth
 - Prisma
-- TypeGraphql
+- TypeGraphQL
 
 
 ## Development
