@@ -67,7 +67,6 @@ importers:
       graphql: 15.x.x
       graphql-fields: ^2.0.3
       graphql-scalars: ^1.14.1
-      nanoid: ^3.1.30
       passport-github: ^1.1.0
       pino-pretty: ^7.3.0
       prisma: ^3.7.0
@@ -87,7 +86,6 @@ importers:
       fastify-passport: 0.4.3_fastify@3.25.3
       fastify-secure-session: 3.0.0
       graphql: 15.8.0
-      nanoid: 3.1.30
       passport-github: 1.1.0
       pino-pretty: 7.3.0
       reflect-metadata: 0.1.13
@@ -5766,6 +5764,7 @@ packages:
     resolution: {integrity: sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+    dev: true
 
   /natural-compare/1.4.0:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
