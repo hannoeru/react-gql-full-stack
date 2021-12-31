@@ -49,4 +49,7 @@ pnpm db:push
 
 # run dev
 pnpm dev
+
+# generate gql client
+pnpm gql:generate
 ```

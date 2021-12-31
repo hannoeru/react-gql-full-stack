@@ -12,6 +12,7 @@
     "db:studio": "pnpm -C packages/server db:studio",
     "db:migrate": "pnpm -C packages/server db:migrate",
     "db:generate": "pnpm -C packages/server db:generate",
+    "gql:generate": "pnpm -C packages/frontend generate",
     "dev": "pnpm -r dev --parallel",
     "dev:server": "pnpm -C packages/server dev",
     "dev:front": "pnpm -C packages/frontend dev",
