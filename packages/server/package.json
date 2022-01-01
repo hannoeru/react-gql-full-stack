@@ -22,9 +22,12 @@
     "fastify-passport": "^0.4.3",
     "fastify-secure-session": "^3.0.0",
     "graphql": "15.x.x",
+    "graphql-fields": "^2.0.3",
+    "graphql-scalars": "^1.14.1",
     "passport-github": "^1.1.0",
     "pino-pretty": "^7.3.0",
     "reflect-metadata": "^0.1.13",
+    "tslib": "^2.3.1",
     "type-graphql": "^1.1.1"
   },
   "devDependencies": {
@@ -32,10 +35,7 @@
     "@types/node": "^17.0.5",
     "@types/passport-github": "^1.1.7",
     "esmon": "^2.0.1",
-    "graphql-fields": "^2.0.3",
-    "graphql-scalars": "^1.14.1",
     "prisma": "^3.7.0",
-    "tslib": "^2.3.1",
     "typegraphql-prisma": "^0.18.3",
     "typescript": "^4.4.4"
   }
