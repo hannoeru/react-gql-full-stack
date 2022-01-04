@@ -10,7 +10,7 @@ import type { FastifyCorsOptions } from 'fastify-cors'
 const PORT = process.env.PORT || 4000
 
 const corsOptions: FastifyCorsOptions = {
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'https://studio.apollographql.com'],
   credentials: true,
 }
 

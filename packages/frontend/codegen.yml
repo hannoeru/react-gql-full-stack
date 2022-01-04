@@ -14,3 +14,4 @@ config:
   withComponents: false
   withHooks: true
   documentMode: documentNode
+  urqlImportFrom: "@urql/preact"

@@ -3,7 +3,7 @@
   "overrides": [
     {
       "files": [
-        "**/*.resolver.ts"
+        "**/resolvers/**/*"
       ],
       "rules": {
         "@typescript-eslint/consistent-type-imports": "off"
