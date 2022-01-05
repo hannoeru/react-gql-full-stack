@@ -9,24 +9,24 @@
     "generate": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
-    "@unocss/reset": "^0.20.1",
+    "@unocss/reset": "^0.21.0",
     "@urql/preact": "^2.0.3",
     "graphql": "15.x.x",
-    "preact": "^10.5.15",
+    "preact": "^10.6.4",
     "preact-router": "^3.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.7",
     "@graphql-codegen/cli": "^2.3.1",
     "@graphql-codegen/introspection": "^2.1.1",
     "@graphql-codegen/typescript": "^2.4.2",
     "@graphql-codegen/typescript-operations": "^2.2.2",
     "@graphql-codegen/typescript-urql": "^3.4.2",
-    "@iconify/json": "^1.1.449",
-    "@preact/preset-vite": "^2.1.5",
+    "@iconify/json": "^2.0.20",
+    "@preact/preset-vite": "^2.1.7",
     "graphql-tag": "^2.12.6",
-    "typescript": "^4.4.4",
-    "unocss": "^0.20.1",
-    "vite": "^2.7.2"
+    "typescript": "^4.5.4",
+    "unocss": "^0.21.0",
+    "vite": "^2.7.10"
   }
 }
