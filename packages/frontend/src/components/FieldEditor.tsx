@@ -34,13 +34,13 @@ const FieldEditor: FunctionalComponent<Props> = ({ data: { key, value }, onChang
   }, [editing])
 
   return (
-    <li className="flex items-center space-x-1">
+    <li class="flex items-center space-x-1">
       <span>{key}:</span>
       {editing
-        ? <input ref={inputRef} type="text" value={value} onBlur={handleChange} className="bg-transparent" onKeyPress={handleEnter} />
+        ? <input ref={inputRef} type="text" value={value} onBlur={handleChange} class="bg-transparent" onKeyPress={handleEnter} />
         : <>
           <span>{value}</span>
-          <button className="i-uil-pen" onClick={() => setEditing(true)} />
+          <button class="i-uil-pen" onClick={() => setEditing(true)} />
         </>
       }
     </li>

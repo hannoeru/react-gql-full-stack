@@ -46,12 +46,12 @@ const Profile: FunctionalComponent = () => {
   }
 
   return (
-    <div className="p-12 flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-semibold">Profile</h1>
-      <div className="py-12">
+    <div class="p-12 flex flex-col items-center justify-center">
+      <h1 class="text-4xl font-semibold">Profile</h1>
+      <div class="py-12">
         {
-          user?.avatar && <div className="flex justify-center mb-12">
-            <img src={user.avatar} alt="" className="w-48 h-48 object-center rounded-full overflow-hidden" />
+          user?.avatar && <div class="flex justify-center mb-12">
+            <img src={user.avatar} alt="" class="w-48 h-48 object-center rounded-full overflow-hidden" />
           </div>
         }
         <ul>
@@ -67,7 +67,7 @@ const Profile: FunctionalComponent = () => {
           }
         </ul>
       </div>
-      <Link href="/" className="d-btn">
+      <Link href="/" class="d-btn">
         home
       </Link>
     </div>
